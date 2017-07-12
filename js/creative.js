@@ -62,3 +62,7 @@
     });
 
 })(jQuery); // End of use strict
+
+$('.carousel').carousel({
+  interval: 4000
+})
