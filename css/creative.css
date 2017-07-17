@@ -10,7 +10,7 @@ body {
 hr {
   border-color: #00bcd4;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 240px;
 }
 hr.light {
   border-color: white;
@@ -47,6 +47,7 @@ p {
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  font-size: 21px;
 }
 section {
   padding: 100px 0;
@@ -83,7 +84,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 1.8rem;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -154,7 +155,7 @@ header{
   background-position: center;
   background-color: rgba(0,0,0,0.8);
   background-image: url('../img/fondo1.png');
-
+height: auto;
   text-align: center;
   color: rgb(20,20,95);
 }
@@ -191,6 +192,13 @@ header .header-content .header-content-inner p {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+    margin: 20px auto;
+  }
+  .bck-white{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+  /*  padding: 50px 50px;
+    margin: 100px;*/
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
@@ -198,17 +206,19 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: 11px;
   }
   header .header-content .header-content-inner p {
-    font-size: 18px;
+    font-size: 29px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 }
 .section-heading {
-  margin-top: 0;
+  margin-top: 50px;
 }
 .service-box {
   max-width: 400px;
@@ -224,6 +234,14 @@ header .header-content .header-content-inner p {
 }
 .bg-light-gray {
   background-color: #eeeeee;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 5rem;
+    padding-left: 0;
+}
+#particle-canvas {
+  width: 100%;
+  height: 100%;
 }
 #portfolio .img-responsive,#portfolio  .thumbnail > img,#portfolio  .thumbnail a > img{
      height: 250px;

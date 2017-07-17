@@ -10,6 +10,10 @@
         event.preventDefault();
     });
 
+    if(window.pageYOffset==0){
+      alert('fgd');
+      $(".navbar-right")[0].style.visibility='hidden';
+    }
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
