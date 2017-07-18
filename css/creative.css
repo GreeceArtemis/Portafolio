@@ -70,6 +70,9 @@ aside {
   font-weight: 700;
   text-transform: uppercase;
 }
+.icons img{
+  width: 25%;
+}
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: rgb(113, 87, 179);
