@@ -168,6 +168,13 @@ header .header-content {
   padding: 100px 15px 100px;
   width: 100%;
 }
+.finger {
+  -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+ width: 2rem;
+}
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
